@@ -1,0 +1,39 @@
+{
+  "name": "chill-with-hill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/js/app.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Katie Schick",
+  "dependencies": {
+    "babel-polyfill": "6.9.1",
+    "fixed-data-table": "0.6.0",
+    "lodash": "4.13.1",
+    "moment": "2.13.0",
+    "react": "0.14.8",
+    "react-dom": "0.14.8",
+    "react-redux": "4.4.5",
+    "react-router": "2.4.1",
+    "redux": "3.5.2",
+    "redux-persist": "3.2.2",
+    "redux-thunk": "1.0.3",
+    "whatwg-fetch": "1.0.0"
+  },
+  "devDependencies": {
+    "babel": "6.5.2",
+    "babel-core": "6.9.1",
+    "babel-loader": "6.2.4",
+    "babel-plugin-react-transform": "2.0.2",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "babel-preset-react-hmre": "1.0.1",
+    "babel-preset-stage-0": "6.3.13",
+    "css-loader": "0.23.1",
+    "html-webpack-plugin": "2.7.2",
+    "style-loader": "0.13.0",
+    "webpack": "1.13.1",
+    "webpack-dev-server": "1.14.1"
+  }
+}

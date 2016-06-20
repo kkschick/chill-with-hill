@@ -1,0 +1,89 @@
+/* **NOTE: If I had more time, I would have set up a less-loader
+   so I could write nested classes and use variables, instead of
+   this mess of classes.
+*/
+
+html, body {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+}
+
+.list-header {
+  text-transform: uppercase;
+}
+
+.header-cell {
+  font-size: 18px;
+  background: #0050a0;
+  color: white;
+}
+
+.table-link {
+  color: #0050a0;
+}
+
+.table-link:hover {
+  color: #109acd;
+  cursor: pointer;
+}
+
+.event-details {
+  border: #0050a0 5px solid;
+  padding: 0px 10px 15px 15px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.event-header {
+  text-decoration: underline;
+}
+
+.event-detail-p {
+  font-size: 14px;
+}
+
+.rsvp-button {
+  background: #e51d2e;
+  text-transform: uppercase;
+  color: white;
+  border-style: none;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.rsvp-button:hover {
+  color: #E66A74;
+  cursor: pointer;
+}
+
+.un-rsvp-button {
+  background: white;
+  color: #0050a0;
+  border-style: none;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.un-rsvp-button:hover {
+  background: white;
+  color: #109acd;
+  cursor: pointer;
+}
+
+.back-link {
+  color: #0050a0;
+}
+
+.back-link:hover {
+  color: #109acd;
+}
+
+.attending-text {
+  font-size: 18px;
+  color: #109acd;
+}
+
+.sorry-full {
+  font-size: 18px;
+  color: #e51d2e;
+}
