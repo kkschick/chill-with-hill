@@ -1,38 +1,21 @@
 Chill With Hill
 ===============
 
-####Table of Contents
+##Table of Contents
 - [The Project](#the-project)
-- [Screenshots](#screenshots)
 - [Get It Running](#get-it-running)
+- [Screenshots](#screenshots)
 
-####The Project
+##The Project
 
 This project has a Flask server on the back-end and a Node server on the front-end
 (using Webpack, React, Redux, and Babel + ES6). Here are the steps to get it all
 set up!
 
-####Screenshots
 
-View events:
+##Get It Running
 
-![View events](/screenshots/event_list.png)
-
-RSVP:
-
-![RSVP](/screenshots/event_details_rsvp.png)
-
-Check your RSVP status or un-RSVP:
-
-![RSVP check](/screenshots/event_details_attending.png)
-
-See whether an event is full:
-
-![Check full](/screenshots/event_details_full.png)
-
-####Get It Running
-
-#####Back-end setup:
+###Back-end setup:
 
 Get Postgres running and dump `data.pgdump` into a new database.
 
@@ -51,7 +34,7 @@ Start the Flask server:
 `(venv)$ python server/app.py`
 
 
-#####Front-end setup:
+###Front-end setup:
 
 If you don't already have npm, go ahead and install it:
 
@@ -80,3 +63,22 @@ Start the node server:
 `$ npm start`
 
 Point your browser to `localhost:3000`.
+
+
+##Screenshots
+
+View events:
+
+![View events](/screenshots/event_list.png)
+
+RSVP:
+
+![RSVP](/screenshots/event_details_rsvp.png)
+
+Check your RSVP status or un-RSVP:
+
+![RSVP check](/screenshots/event_details_attending.png)
+
+See whether an event is full:
+
+![Check full](/screenshots/event_details_full.png)
