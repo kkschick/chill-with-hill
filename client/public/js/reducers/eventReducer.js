@@ -12,8 +12,6 @@ function eventReducer(state = {events: [], eventsAttending: [], isLoading: false
         errorMessage: ''
       };
     case types.RSVP_UPDATE_SUCCESS:
-      // **NOTE: This manipulation should ideally not be happening in the
-      //   reducer, and if I had more time, I'd move it to the components.
       let responseData = action.data[0];
       events = [ ...state.events ];
       // Add RSVP event to eventsAttending so we can display properly
@@ -32,8 +30,6 @@ function eventReducer(state = {events: [], eventsAttending: [], isLoading: false
         errorMessage: ''
       };
     case types.UN_RSVP_UPDATE_SUCCESS:
-      // **NOTE: This manipulation should ideally not be happening in the
-      //   reducer, and if I had more time, I'd move it to the components.
       let resp = action.data[0];
       events = [ ...state.events ];
 
